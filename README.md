@@ -1,90 +1,52 @@
-# **HTML & CSS Advanced Project**
+HTML & CSS Project
+Descripción
 
-## **Description**
-This project is designed to help you learn the fundamentals of HTML and CSS by building a webpage from scratch. You will create a semantic, well-structured, and standards-compliant webpage using only HTML and CSS. The focus is on building your understanding of core web technologies and their best practices.
+Este proyecto tiene como objetivo ayudarte a aprender los fundamentos de HTML y CSS creando una página web desde cero.
+Trabajarás con etiquetas básicas de HTML y estilos en CSS para estructurar y dar diseño a tu página.
 
----
+Objetivos de Aprendizaje
 
-## **Learning Objectives**
-By the end of this project, you should be able to explain the following concepts to anyone without needing external help:
+Al finalizar este proyecto deberás saber:
 
-### **General**
-- What is **HTML**?
-- How to create an HTML page from a **wireframe**.
-- What is a **markup language**?
-- What is the **DOM** (Document Object Model)?
-- What is an **element/tag** in HTML?
-- What is an **attribute** in HTML?
-- The purpose of each major HTML tag.
+Qué es HTML y para qué sirve.
 
----
+Cómo crear una página con etiquetas HTML básicas.
 
-## **Requirements**
-### **General Requirements**
-- All files must end with a **new line**.
-- A `README.md` file is mandatory at the root of the project folder.
-- **No external libraries** are allowed:
-  - No NodeJS, React, VueJS, Bootstrap, etc.
-- The webpage must be built using **only HTML/CSS/JavaScript**.
-- Your HTML code must be **W3C compliant** and pass the [W3C Validator](https://validator.w3.org/).
+Qué es CSS y cómo aplicar estilos.
 
----
+Cómo validar tu código para asegurarte de que cumple con los estándares.
 
-## **Resources**
-Here are some resources to help you complete this project:
+Requisitos
 
-- [Learn to Code HTML & CSS (Shay Howe)](https://learn.shayhowe.com/html-css/)
-  *(Focus on "Creating Lists" and earlier sections.)*
-- [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [HTML Documentation (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [W3C Validator](https://validator.w3.org/): Validate your HTML code for standards compliance.
+Todos los archivos deben terminar con una línea nueva.
 
----
+Debe existir un archivo README.md en la raíz del proyecto.
 
-## **Steps to Complete the Project**
-1. **Analyze the Wireframe**
-   - Use the provided wireframe or design file (e.g., Figma) to understand the layout.
-   - Break down the design into **sections** and decide which HTML tags to use.
+No se permite el uso de librerías externas (Bootstrap, React, etc.).
 
-2. **Write the HTML Structure**
-   - Use semantic HTML to create the structure of the page.
-   - Include tags like `<header>`, `<main>`, `<footer>`, `<section>`, and `<article>` to organize your content.
+Solo se debe usar HTML y CSS.
 
-3. **Validate Your Code**
-   - Use the [W3C Validator](https://validator.w3.org/) to ensure your code is error-free and compliant.
+El código HTML debe ser válido según el W3C Validator
+.
 
-4. **Add CSS**
-   - Style your page using CSS.
-   - Focus on layout, typography, and any necessary design details.
+Estructura del Proyecto
+project-folder/
+├── index.html
+├── styles.css
+└── README.md
 
-5. **Test the Page**
-   - Open the page in a browser to ensure it displays correctly.
-   - Compare the result with the provided design or wireframe.
+Pasos Básicos
 
----
+Crear la estructura HTML usando etiquetas semánticas.
 
-## **Project Structure**
-The project should be organized as follows:
-project-folder/ │ ├── index.html # Main HTML file ├── styles.css # CSS file for styling (if applicable) ├── README.md # Project documentation
+Agregar estilos básicos en styles.css.
 
----
+Validar tu HTML en el W3C Validator
+.
 
-## **Validation**
-- Validate your HTML using the [W3C Validator](https://validator.w3.org/).
-- Test your page in different browsers to ensure cross-browser compatibility.
+Probar la página en un navegador.
 
----
-
-## **Commit and Push Your Work**
-After completing your project:
-1. Add your changes:
-   ```bash
-   git add .
-2. Commit with a descriptive message:
-```
-git commit -m "Complete HTML structure and CSS for the project"
-```
-3. Push your changes to your GitHub repository:
-```
+Subir Cambios a GitHub
+git add .
+git commit -m "Primer avance del proyecto HTML y CSS"
 git push origin main
-```
